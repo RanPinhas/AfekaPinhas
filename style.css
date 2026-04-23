@@ -1,0 +1,76 @@
+/* הגדרות כלליות לרקע האתר - כחול ים */
+body {
+    background-color: #0077be; /* כחול ים עמוק */
+    background-image: linear-gradient(180deg, #0077be 0%, #00aaff 100%); /* מדורג לקבלת אפקט מים */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* עיצוב כותרות האתר */
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3); /* צל לטקסט ליצירת עומק */
+    text-align: center;
+    font-size: 2.5em;
+}
+
+/* עיצוב הטבלה (ה-Layout של דפי התוכן) */
+table {
+    background-color: rgba(255, 255, 255, 0.95); /* לבן מעט שקוף */
+    border-collapse: separate;
+    border-radius: 15px; /* פינות מעוגלות למראה מרשים */
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5); /* צל חזק שגורם לטבלה "לצוף" */
+    border: none;
+    margin-top: 20px;
+}
+
+/* עיצוב התאים בתוך הטבלה */
+td {
+    border: none !important; /* ביטול הקווים הפנימיים למראה נקי */
+}
+
+/* עיצוב התפריט ורשימות */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    background: rgba(255,255,255,0.2);
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+/* עיצוב קישורים */
+a {
+    color: #004466;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li a {
+    color: white;
+}
+
+/* אפקט מעבר עכבר על קישורים ותפריט */
+a:hover {
+    color: #ffcc00; /* צהוב שמש במעבר עכבר */
+}
+
+nav li:hover {
+    background: rgba(255,255,255,0.4);
+}
+
+/* עיצוב התמונות בתוך הטבלה */
+img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
