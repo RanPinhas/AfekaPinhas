@@ -13,4 +13,4 @@ The central theme guiding my choice of locations is my deep connection to the se
 Alongside my love for the sea, I also chose to dedicate a place of honor to Petah Tikva, known as the "Mother of the Moshavot" (Em HaMoshavot). This city represents the historical and Zionist roots of the country, and it was important to me to include it as a central landmark in the Israeli landscape.
 
 # Live Site Link
-[Paste your GitHub Pages link here, e.g., https://ranpinhas.github.io/AfekaPinhas]
+ https://ranpinhas.github.io/AfekaPinhas/
